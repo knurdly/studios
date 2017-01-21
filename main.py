@@ -27,7 +27,7 @@ class Index(webapp2.RequestHandler):
         # the heading "<h1>Tommorrow's Movie</h1>"
         tomorrw_movie = self.get_random_movie
         content+="<h1>asdfasdfjlkdsfa</h1>"
-        content+="<p>"  + movie +"</p>""
+        content+="<p>"  + movie +"</p>"
         self.response.write(content)
 
 app = webapp2.WSGIApplication([
